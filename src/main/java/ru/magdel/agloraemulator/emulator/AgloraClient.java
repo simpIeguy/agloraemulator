@@ -121,8 +121,7 @@ public class AgloraClient implements TrackPointListener {
         data += "&spd=" + MapUtil.speedRound1(pointToSend.getSpd());
         data += "&alt=" + pointToSend.getAlt();
         data += "&crs=" + ((int) pointToSend.getCrs());
-        data += "&bat=60";
-        data += "&tbat=70";
+        data += "&gpsValid=1";
         data += "&timestamp=" + DateTimeFormatter.ISO_DATE_TIME.format(
                 Instant.ofEpochMilli(pointToSend.getTime()).atOffset(ZoneOffset.UTC)
                         .truncatedTo(ChronoUnit.SECONDS)
