@@ -1,6 +1,5 @@
 # agloraemulator
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/magdel/agloraemulator/blob/main/LICENSE.txt)
 [![Hits-of-Code](https://hitsofcode.com/github/magdel/agloraemulator?branch=main&label=Hits-of-Code)](https://hitsofcode.com/github/magdel/agloraemulator/view?branch=main&label=Hits-of-Code)
 
 Emulator sends serial data as would AGLoRa device do to BLE.
