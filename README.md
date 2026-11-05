@@ -1,6 +1,5 @@
 # agloraemulator
 
-[![Hits-of-Code](https://hitsofcode.com/github/magdel/agloraemulator?branch=main&label=Hits-of-Code)](https://hitsofcode.com/github/magdel/agloraemulator/view?branch=main&label=Hits-of-Code)
 
 Emulator sends serial data as would AGLoRa device do to BLE.
 Data sending is every second as recorded in source track [raw NMEA 0183](src/main/resources/data/round1.txt)
